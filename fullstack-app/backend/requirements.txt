@@ -1,0 +1,35 @@
+# Core FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.11.7
+pydantic-settings==2.1.0
+
+# Machine Learning
+torch>=2.0.0
+transformers>=4.30.0
+tokenizers>=0.13.0
+sentencepiece>=0.1.99
+
+# Evaluation
+sacrebleu>=2.0.0
+
+# Database and caching (optional)
+redis>=5.0.0
+sqlalchemy>=2.0.0
+
+# Utilities
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+requests>=2.25.0
+aiofiles>=23.0.0
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# CORS for frontend integration
+python-cors==1.0.1
